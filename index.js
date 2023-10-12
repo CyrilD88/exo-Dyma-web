@@ -1,13 +1,9 @@
-// const string = "Hello les gens";
+// ========================================================================= inverser une chaine de caractères ======================================================
 
-// console.log(string.split(" ").reverse().join(""));
+// function reverString(str) {
+//   console.log(str.split("").reverse().join(""));
+// }
 
-// console.log(string.split());
+// const string = "hello les gens";
 
-function reverString(str) {
-  console.log(str.split("").reverse().join(""));
-}
-
-const string = "hello les gens";
-
-reverString(string);
+// reverString(string);
