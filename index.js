@@ -21,3 +21,18 @@
 // const word = "laval";
 
 // palindrome(word);
+
+// ========================================================================= Trouver le mot le plus long ======================================================
+
+// function longestWord(str) {
+//   let splitStr = str.split(" ");
+//   let array = [];
+//   for (let i = 0; i < splitStr.length; i++) {
+//     array.push(splitStr[i].length);
+//   }
+//   console.log(Math.max(...array));
+// }
+
+// let string = "le Javascript c'est super cool";
+
+// longestWord(string);
