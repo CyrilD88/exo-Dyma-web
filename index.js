@@ -38,3 +38,17 @@
 // longestWord(string);
 
 // ====
+
+// const btn = document.querySelector("button");
+
+// function random() {
+//   console.log(Math.round(Math.random() * 10));
+// }
+
+// btn.addEventListener("click", random);
+
+// ===================================== Convertir un nombre en un array reverse ====================================
+// function digi(n) {
+//   console.log(String(n).split("").map(Number).reverse());
+// }
+// digi(123456);
