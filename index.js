@@ -52,3 +52,13 @@
 //   console.log(String(n).split("").map(Number).reverse());
 // }
 // digi(123456);
+
+// function areYouPlayingBanjo(name) {
+//   if (name.split("")[0] === "R" || "r") {
+//     console.log(`${name} plays banjo`);
+//   } else {
+//     console.log(`${name} does not play banjo`);
+//   }
+// }
+
+// areYouPlayingBanjo("cyril");
