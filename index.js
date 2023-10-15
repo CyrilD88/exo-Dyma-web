@@ -62,3 +62,10 @@
 // }
 
 // areYouPlayingBanjo("cyril");
+
+// ===================================== retourner un array en doublant le nombre à l'intérieur ====================================
+// function map(x) {
+//   console.log(x.map((number) => number * 2));
+// }
+
+// map([1, 2, 3]);
