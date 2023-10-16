@@ -84,3 +84,10 @@
 // }
 
 // testArray([1, 6, 3, 11, 5, 4, 2, 99, 100]);
+
+function greet(name) {
+  const sentence = `Hello, ${name} how are you doing today?`;
+  console.log(sentence);
+}
+
+greet("Joseph");
