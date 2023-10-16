@@ -86,8 +86,24 @@
 // testArray([1, 6, 3, 11, 5, 4, 2, 99, 100]);
 
 function greet(name) {
+  const array = [1, 2, 3];
   const sentence = `Hello, ${name} how are you doing today?`;
-  console.log(sentence);
+  const test = "yolo";
+  const yelo = sentence.split(" ");
+  let arr2 = array.splice(0, 0, "hey");
+  // console.log(sentence);
+  // console.log(test);
+  // console.log(yelo);
+  // console.log(typeof array);
+  // console.log(typeof yelo);
+  // console.log(arr2);
 }
 
 greet("Joseph");
+
+let numbers = [1, 2, 3, "hey"];
+let maChaine = "9 méthodes pour manipuler des chaines de caractères";
+let toString = numbers.toString();
+let toArr = JSON.parse(maChaine);
+console.log(toString);
+console.log(toArr);
