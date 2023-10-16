@@ -85,25 +85,43 @@
 
 // testArray([1, 6, 3, 11, 5, 4, 2, 99, 100]);
 
-function greet(name) {
-  const array = [1, 2, 3];
-  const sentence = `Hello, ${name} how are you doing today?`;
-  const test = "yolo";
-  const yelo = sentence.split(" ");
-  let arr2 = array.splice(0, 0, "hey");
-  // console.log(sentence);
-  // console.log(test);
-  // console.log(yelo);
-  // console.log(typeof array);
-  // console.log(typeof yelo);
-  // console.log(arr2);
+// function greet(name) {
+//   const array = [1, 2, 3];
+//   const sentence = `Hello, ${name} how are you doing today?`;
+//   const test = "yolo";
+//   const yelo = sentence.split(" ");
+//   let arr2 = array.splice(0, 0, "hey");
+//   // console.log(sentence);
+//   // console.log(test);
+//   // console.log(yelo);
+//   // console.log(typeof array);
+//   // console.log(typeof yelo);
+//   // console.log(arr2);
+// }
+
+// greet("Joseph");
+
+// let numbers = [1, 10, 56, 2, 3, "hey"];
+// let maChaine = "9 méthodes pour manipuler des chaines de caractères";
+// let toString = numbers.toString();
+// let toArr = maChaine.split(" ").join(" ");
+// let toNumber = numbers.toString();
+// let toNumber2 = numbers.sort((a, b) => {
+//   return a - b;
+// });
+
+// let toNumber3 = ["kiwi", "pommes", "poires"];
+// let toNumber4 = toNumber3.push("citron");
+// console.log(toString);
+// console.log(toArr);
+// console.log(maChaine);
+// console.log(toNumber);
+// console.log(toNumber2);
+// console.log(toNumber3);
+// console.log(toNumber4);
+
+function lovefunc(flower1, flower2) {
+  return console.log(flower1 % 2 !== flower2 % 2);
 }
 
-greet("Joseph");
-
-let numbers = [1, 2, 3, "hey"];
-let maChaine = "9 méthodes pour manipuler des chaines de caractères";
-let toString = numbers.toString();
-let toArr = JSON.parse(maChaine);
-console.log(toString);
-console.log(toArr);
+lovefunc(2, 2);
