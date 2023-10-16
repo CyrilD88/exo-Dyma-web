@@ -69,3 +69,18 @@
 // }
 
 // map([1, 2, 3]);
+
+// ============================== Classer un tableau par ordre numérique + concaténation =========================================
+// function testArray(arr) {
+//   const arrNew = [7, 8, 9, 10];
+//   let arrNewDeux = arrNew.concat(arr);
+
+//   arrNewDeux.sort((a, b) => {
+//     return b - a;
+//   });
+//   console.log(arrNewDeux);
+//   //   console.log(arr.sort());
+//   //   console.log(arrNew.concat(arr).sort());
+// }
+
+// testArray([1, 6, 3, 11, 5, 4, 2, 99, 100]);
