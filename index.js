@@ -120,8 +120,8 @@
 // console.log(toNumber3);
 // console.log(toNumber4);
 
-function lovefunc(flower1, flower2) {
-  return console.log(flower1 % 2 !== flower2 % 2);
-}
+// function lovefunc(flower1, flower2) {
+//   return console.log(flower1 % 2 !== flower2 % 2);
+// }
 
-lovefunc(2, 2);
+// lovefunc(2, 2);
