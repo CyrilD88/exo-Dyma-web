@@ -125,3 +125,23 @@
 // }
 
 // lovefunc(2, 2);
+
+// function betterThanAverage(classPoints, yourPoints) {
+//   const sumNote = classPoints.reduce((sum, currentNote) => {
+//     return (sum += currentNote);
+//   });
+//   const sumMoyenne = Math.round(sumNote / classPoints.length);
+//   console.log(sumNote);
+//   console.log(sumMoyenne);
+
+//   return sumMoyenne <= yourPoints ? console.log("true") : console.log("false");
+// }
+
+// betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 35);
+
+// There was a test in your class and you passed it. Congratulations!
+// But you're an ambitious person. You want to know if you're better than the average student in your class.
+
+// You receive an array with your peers' test scores. Now calculate the average and compare your score!
+
+// Return True if you're better, else False!
