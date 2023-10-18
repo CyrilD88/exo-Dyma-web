@@ -190,3 +190,18 @@
 // Liste des objectifs à remplir
 // Créez et exportez une fonction compterElements() qui reçoit un tableau en argument
 // La fonction doit retourner un objet qui comporte une clé unique pour chaque élément du tableau et en valeur le nombre de fois que cet élément est contenu dans le tableau
+
+// ========================================================================================================
+// function disemvowel(str) {
+//   const yolo = str
+//     .split("")
+//     .map((word) =>
+//       ["a", "e", "i", "o", "u"].includes(word.toLowerCase()) ? "" : word
+//     )
+//     .join("");
+//   console.log(yolo);
+// }
+
+// disemvowel("This website is for losers LOL!");
+
+// write a function that takes a string and return a new string with all vowels removed.
