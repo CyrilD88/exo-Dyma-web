@@ -159,3 +159,34 @@
 // We will consider a, e, i, o, u as vowels for this Kata (but not y).
 
 // The input string will only consist of lower case letters and/or spaces...
+
+// ============================================================================
+
+// function compterElements(tableau) {
+//     console.log(tableau);
+//     const yolo = tableau.reduce((acc, curr) => {
+//       acc[curr] = acc[curr] ? acc[curr] + 1 : 1;
+//       return acc;
+//     }, {});
+//     console.log(yolo);
+//   }
+//   compterElements([
+//     "veste",
+//     "clé",
+//     "verre",
+//     "chien",
+//     "biberon",
+//     "chien",
+//     "veste",
+//     "clé",
+//     "chien",
+//   ]);
+
+//   Énoncé
+// Créez une fonction compterElements() qui reçoit un tableau en argument.
+
+// La fonction doit retourner un objet qui comporte en clés les chaînes de caractères du tableau et en valeur le nombre d’occurrences dans le tableau.
+
+// Liste des objectifs à remplir
+// Créez et exportez une fonction compterElements() qui reçoit un tableau en argument
+// La fonction doit retourner un objet qui comporte une clé unique pour chaque élément du tableau et en valeur le nombre de fois que cet élément est contenu dans le tableau
