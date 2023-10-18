@@ -145,3 +145,17 @@
 // You receive an array with your peers' test scores. Now calculate the average and compare your score!
 
 // Return True if you're better, else False!
+
+// ================================================================================================================================================================
+
+// function getCount(str) {
+//   return (str.match(/[aeiou]/ig)||[]).length;
+// }
+
+// getCount("abracadabra");
+
+// Return the number (count) of vowels in the given string.
+
+// We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+// The input string will only consist of lower case letters and/or spaces.
