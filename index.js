@@ -242,3 +242,13 @@
 // 1/ on doit transformer la chaine de caractères en tableau pour pouvoir trouver le chiffre. Pour cela on utilise .split()
 // 2/ comme le paramètre est une chaine de caractères on utilise ... pour le transformer en Array.
 // 3/ on devra utiliser numbers.split(" ") deux fois. Pour éviter la répétition on peut le passer en argument.
+
+// ===========================================================================
+// function minMax(arr) {
+//   const yolo = [Math.min(...arr), Math.max(...arr)];
+//   console.log(yolo);
+// }
+
+// minMax([1, 2, 3, 4, 5, 11, 6, 10]);
+
+// Write a function that returns both the minimum and maximum number of the given list/array.
