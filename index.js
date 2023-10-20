@@ -266,3 +266,23 @@
 // // sortByLength([1, 5, 2, 10, 6, 80, 4]);
 
 // Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
+
+// ==================================================================================================
+// function accum(s) {
+//   console.log(s);
+
+//   const yolo = s
+//     .toLowerCase()
+//     .split("")
+//     .map((el, index) => el.toUpperCase() + el.repeat(index))
+//     .join("-");
+
+//   console.log(yolo);
+// }
+
+// accum("ZpglnRxqenU");
+
+// The examples below show you how to write function accum:
+
+// Examples:
+// accum("abcd") -> "A-Bb-Ccc-Dddd"
