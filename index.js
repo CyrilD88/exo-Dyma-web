@@ -252,3 +252,17 @@
 // minMax([1, 2, 3, 4, 5, 11, 6, 10]);
 
 // Write a function that returns both the minimum and maximum number of the given list/array.
+
+// =========================================================================================
+
+// function sortByLength(array) {
+//   // Return an array containing the same strings, ordered from shortest to longest
+//   console.log(array);
+//   const yolo = array.sort((a, b) => a.length - b.length);
+//   console.log(yolo);
+// }
+
+// sortByLength(["Beg", "Life", "I", "To"]);
+// // sortByLength([1, 5, 2, 10, 6, 80, 4]);
+
+// Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
