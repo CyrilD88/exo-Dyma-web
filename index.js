@@ -299,3 +299,14 @@
 // a = "xyaabbbccccdefww"
 // b = "xxxxyyyyabklmopq"
 // longest(a, b) -> "abcdefklmopqwxy"
+
+// ====================================================================
+
+// function filter_list(l) {
+//   const yolo = l.filter((element) => typeof element == "number");
+//   console.log(yolo);
+// }
+
+// filter_list([1, 2, "a", "b"]);
+
+// In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
