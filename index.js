@@ -339,7 +339,7 @@
 
 // The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 
-function busStops(people) {
+function busStops(perso) {
   console.log(people.reduce((p, [getIn, getOut]) => p + getIn - getOut, 0));
 }
 
