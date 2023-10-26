@@ -339,8 +339,33 @@
 
 // The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
 
-function busStops(perso) {
-  console.log(people.reduce((p, [getIn, getOut]) => p + getIn - getOut, 0));
-}
+// function busStops(perso) {
+//   console.log(people.reduce((p, [getIn, getOut]) => p + getIn - getOut, 0));
+// }
 
-busStops([3, 1], [3, 4]);
+// busStops([3, 1], [3, 4]);++
+
+// Given a list of integers, determine whether the sum of its elements is odd or even.
+
+// Give your answer as a string matching "odd" or "even".
+
+// If the input array is empty consider it as: [0] (array with a zero).
+
+// function oddOrEven(array) {
+//   const value = array.reduce((acc, currentValue) => (acc += currentValue));
+
+//   console.log(value);
+
+//   if (value % 2 === 0) {
+//     console.log("paire");
+//   } else {
+//     console.log("impaire");
+//   }
+// }
+
+// oddOrEven([2, 4, 1]);
+
+// best practices
+// function oddOrEven(arr) {
+//   return arr.reduce((a,b)=>a+b,0) % 2 ? 'odd' : 'even';
+// }
